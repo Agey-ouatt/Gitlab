@@ -1,1 +1,14 @@
 
+stages:          
+  - build
+#   - test
+#   - verify
+#   - move
+#   - check
+#   - final-check
+
+build-job:       
+  stage: build
+  script:
+   - echo "this is working"
+
